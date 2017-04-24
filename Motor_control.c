@@ -108,8 +108,8 @@ void motor_task(void)
          motors_Drive(RIGHT, FORWARD, 100);
          motors_Drive(LEFT, FORWARD, 0);
          Task_sleep(1000);
-         motors_Drive(RIGHT, FORWARD, 100);
-         motors_Drive(LEFT, FORWARD, 0);
+         motors_Drive(RIGHT, FORWARD, 0);
+         motors_Drive(LEFT, FORWARD, 100);
          Task_sleep(1000);
      }
 }
